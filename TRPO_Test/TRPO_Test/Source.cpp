@@ -188,5 +188,7 @@ int main()
 			break;
 		}
 	}
+	cout << "Приложение №1\n";
+
 	return 0;
 }
