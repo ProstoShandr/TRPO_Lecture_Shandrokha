@@ -10,7 +10,7 @@ int main()
 	setlocale(LC_ALL, "rus");
 	srand(time(NULL));
 	int number = rand() % (999 - 100 + 1) + 100;
-	cout << "×èñëî = " << number << endl;
+	cout << "Ã—ÄÅ„Ã«Ã® = " << number << endl;
 
 	int s, d, e, rebmun, n, i = 1, count;
 	s = number / 100;
@@ -21,10 +21,10 @@ int main()
 
 	double srg;
 	srg = pow(s * d * e, 1. / 3);
-	cout << "Ñðåäíåå ãåîìåòðè÷åñêîå ðàâíî " << srg << endl;
+	cout << "ÅƒÄ‘ÄºÃ¤Ã­ÄºÄº ÄƒÄºÃ®Ä›ÄºÅˆÄ‘ÄÃ·ÄºÅ„Ä™Ã®Äº Ä‘Å•Ã¢Ã­Ã® " << srg << endl;
 
 	n = s % 2 + d % 2 + e % 2;
-	cout << "Êîëè÷åñòâî ÷¸òíûõ öèôð:  ";
+	cout << "Ä˜Ã®Ã«ÄÃ·ÄºÅ„ÅˆÃ¢Ã® Ã·Â¸ÅˆÃ­Å±Å‘ Ã¶ÄÃ´Ä‘:  ";
 	switch (n)
 	{
 	case 0:
@@ -42,7 +42,7 @@ int main()
 
 	}
 
-	cout << "Âñå ïðîñòûå ÷èñëà â èíòåðâàëå:  ";
+	cout << "Ã‚Å„Äº ÄÄ‘Ã®Å„ÅˆÅ±Äº Ã·ÄÅ„Ã«Å• Ã¢ ÄÃ­ÅˆÄºÄ‘Ã¢Å•Ã«Äº:  ";
 	int cnt = 1;
 	do
 	{
@@ -67,31 +67,31 @@ int main()
 	switch (s)
 	{
 	case 1:
-		cout << "Ñòî  ";
+		cout << "ÅƒÅˆÃ®  ";
 		break;
 	case 2:
-		cout << "Äâåñòè  ";
+		cout << "Ã„Ã¢ÄºÅ„ÅˆÄ  ";
 		break;
 	case 3:
-		cout << "Òðèñòà  ";
+		cout << "Å‡Ä‘ÄÅ„ÅˆÅ•  ";
 		break;
 	case 4:
-		cout << "×åòûðåñòà  ";
+		cout << "Ã—ÄºÅˆÅ±Ä‘ÄºÅ„ÅˆÅ•  ";
 		break;
 	case 5:
-		cout << "Ïÿòüñîò  ";
+		cout << "ÄŽË™ÅˆÃ¼Å„Ã®Åˆ  ";
 		break;
 	case 6:
-		cout << "Øåñòüñîò  ";
+		cout << "Å˜ÄºÅ„ÅˆÃ¼Å„Ã®Åˆ  ";
 		break;
 	case 7:
-		cout << "Ñåìüñîò  ";
+		cout << "ÅƒÄºÄ›Ã¼Å„Ã®Åˆ  ";
 		break;
 	case 8:
-		cout << "Âîñåìüñîò ";
+		cout << "Ã‚Ã®Å„ÄºÄ›Ã¼Å„Ã®Åˆ ";
 		break;
 	case 9:
-		cout << "Äåâÿòüñîò ";
+		cout << "Ã„ÄºÃ¢Ë™ÅˆÃ¼Å„Ã®Åˆ ";
 		break;
 	}
 	if (d == 1)
@@ -99,31 +99,31 @@ int main()
 		switch (e)
 		{
 		case 1:
-			cout << "îäèííàäöàòü";
+			cout << "Ã®Ã¤ÄÃ­Ã­Å•Ã¤Ã¶Å•ÅˆÃ¼";
 			break;
 		case 2:
-			cout << "äâåííàäöàòü";
+			cout << "Ã¤Ã¢ÄºÃ­Ã­Å•Ã¤Ã¶Å•ÅˆÃ¼";
 			break;
 		case 3:
-			cout << "òðèíàäöàòü";
+			cout << "ÅˆÄ‘ÄÃ­Å•Ã¤Ã¶Å•ÅˆÃ¼";
 			break;
 		case 4:
-			cout << "÷åòûðíàäöàòü";
+			cout << "Ã·ÄºÅˆÅ±Ä‘Ã­Å•Ã¤Ã¶Å•ÅˆÃ¼";
 			break;
 		case 5:
-			cout << "ïÿòíàäöàòü";
+			cout << "ÄË™ÅˆÃ­Å•Ã¤Ã¶Å•ÅˆÃ¼";
 			break;
 		case 6:
-			cout << "øåñòíàäöàòü";
+			cout << "Å™ÄºÅ„ÅˆÃ­Å•Ã¤Ã¶Å•ÅˆÃ¼";
 			break;
 		case 7:
-			cout << "ñåìíàäöàòü";
+			cout << "Å„ÄºÄ›Ã­Å•Ã¤Ã¶Å•ÅˆÃ¼";
 			break;
 		case 8:
-			cout << "âîñåìüíàäöàòü";
+			cout << "Ã¢Ã®Å„ÄºÄ›Ã¼Ã­Å•Ã¤Ã¶Å•ÅˆÃ¼";
 			break;
 		case 9:
-			cout << "äåâÿòíàäöàòü";
+			cout << "Ã¤ÄºÃ¢Ë™ÅˆÃ­Å•Ã¤Ã¶Å•ÅˆÃ¼";
 			break;
 
 		}
@@ -132,63 +132,65 @@ int main()
 		switch (d)
 		{
 		case 2:
-			cout << "äâàäöàòü ";
+			cout << "Ã¤Ã¢Å•Ã¤Ã¶Å•ÅˆÃ¼ ";
 			break;
 		case 3:
-			cout << "òðèäöàòü  ";
+			cout << "ÅˆÄ‘ÄÃ¤Ã¶Å•ÅˆÃ¼  ";
 			break;
 		case 4:
-			cout << "ñîðîê  ";
+			cout << "Å„Ã®Ä‘Ã®Ä™  ";
 			break;
 		case 5:
-			cout << "ïÿòüäåñÿò  ";
+			cout << "ÄË™ÅˆÃ¼Ã¤ÄºÅ„Ë™Åˆ  ";
 			break;
 		case 6:
-			cout << "øåñòüäåñÿò  ";
+			cout << "Å™ÄºÅ„ÅˆÃ¼Ã¤ÄºÅ„Ë™Åˆ  ";
 			break;
 		case 7:
-			cout << "ñåìäåñÿò  ";
+			cout << "Å„ÄºÄ›Ã¤ÄºÅ„Ë™Åˆ  ";
 			break;
 		case 8:
-			cout << "âîñåìüäåñÿò ";
+			cout << "Ã¢Ã®Å„ÄºÄ›Ã¼Ã¤ÄºÅ„Ë™Åˆ ";
 			break;
 		case 9:
-			cout << "äåâÿíîñòà ";
+			cout << "Ã¤ÄºÃ¢Ë™Ã­Ã®Å„ÅˆÅ• ";
 			break;
 		}
 
 		switch (e)
 		{
 		case 1:
-			cout << "îäèí";
+			cout << "Ã®Ã¤ÄÃ­";
 			break;
 		case 2:
-			cout << "äâà ";
+			cout << "Ã¤Ã¢Å• ";
 			break;
 		case 3:
-			cout << "òðè ";
+			cout << "ÅˆÄ‘Ä ";
 			break;
 		case 4:
-			cout << "÷åòûðå  ";
+			cout << "Ã·ÄºÅˆÅ±Ä‘Äº  ";
 			break;
 		case 5:
-			cout << "ïÿòü  ";
+			cout << "ÄË™ÅˆÃ¼  ";
 			break;
 		case 6:
-			cout << "øåñòü ";
+			cout << "Å™ÄºÅ„ÅˆÃ¼ ";
 			break;
 		case 7:
-			cout << "ñåìü  ";
+			cout << "Å„ÄºÄ›Ã¼  ";
 			break;
 		case 8:
-			cout << "âîñåìü ";
+			cout << "Ã¢Ã®Å„ÄºÄ›Ã¼ ";
 			break;
 		case 9:
-			cout << "äåâÿòü ";
+			cout << "Ã¤ÄºÃ¢Ë™ÅˆÃ¼ ";
 			break;
 		}
 	}
-	cout << "Ïðèëîæåíèå ¹1\n";
+	cout << "ÄŽÄ‘ÄÃ«Ã®Ä‡ÄºÃ­ÄÄº Å¡1\n";
+	
+	cout << "ÐŸÑ€Ð¸Ð»Ð¾Ð¶ÐµÐ½Ð¸Ðµ â„–2 Ñ Ð¿Ð¾Ð¼Ð¾Ñ‰ÑŒÑŽ Git\n";
 
 	return 0;
 }
